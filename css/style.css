@@ -7,7 +7,8 @@ body {
   /* width: 1400px; */
 
   margin-top: 200px;
-  background: #ede9dd
+  background: #ede9dd;
+  font-family: sans-serif;
 }
 #header {
   width: 100%;
@@ -15,17 +16,32 @@ body {
   top: 0;
   display: flex;
 }
+.title {
+  font-size: 50px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
 
 .main {
-  margin: 0;
-  margin-left: 200px;
+  margin: 0 auto;
+
+  width: 1000px;
+  text-align: center;
+}
+.features-list {
+  margin-top: 100px;
+  list-style: none;
+}
+.features-1 {
+  font-size: 50px;
+  margin-bottom: 10px;
 }
 
 iframe {
   width: 700px;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -41,5 +57,10 @@ a{
 }
 
 @media screen and (max-width: 600px) {
-  
+  #nav-bar {
+    font-size: 10px;
+  }
+  #header-img {
+    width: 300px;
+  }
 }
