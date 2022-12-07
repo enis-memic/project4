@@ -4,8 +4,10 @@
   padding: 0;
 }
 body {
-  width: 1400px;
-  margin: 200px;
+  /* width: 1400px; */
+
+  margin-top: 200px;
+  background: #ede9dd
 }
 #header {
   width: 100%;
@@ -13,6 +15,21 @@ body {
   top: 0;
   display: flex;
 }
+
+.main {
+  margin: 0;
+  margin-left: 200px;
+}
+
+iframe {
+  width: 700px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 #nav-bar {
   display: flex;
   gap: 40px;
@@ -21,4 +38,8 @@ body {
 }
 #header-img {
   max-width: 400px;
+}
+
+@media screen and (max-width: 600px) {
+  
 }
